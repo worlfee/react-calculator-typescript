@@ -1,0 +1,34 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.App {
+    font-size: 20px;
+  margin-top: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 400px;
+}
+
+h4 {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    font-size: 40px;
+    width: 75px;;
+}
+
+input {
+    width: 330px !important;
+    font-size: 40px !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
